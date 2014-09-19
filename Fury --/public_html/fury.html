@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Filmpje, Oerhollands.</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="filmstyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="jquery.slides.min.js"></script>
+    </head>
+    <body>
+<!-- =====================overige informatie========================== -->
+        <div class="overig">
+            <a href="chat.html">Chat </a>| 
+            <a href="overons.html">Over ons </a>|
+             <a href="Contact.html">Contact</a><br>
+        </div>
+            <div class="header">
+                <a href="index.html">
+                   <img id="logo" src="Logo.png">
+                </a>
+ <!-- <h1>Oerhollands.</h1> in time out gezet, was vervelend============ -->
+            </div>
+<!-- =====================test menu, moeten plannen hoeveel knoppen etc     https://www.youtube.com/watch?v=TmQm-p3wCSU ======================= -->
+          <div class="menu">
+                <ul id="navmenu">  
+	<li><a href="#">test</a>
+		<ul class="sub1">
+			<li><a href="#">test</a></li>
+<!-- hier kan je meer links plaatsen ======================================-->
+			<li><a href="#">test</a></li>
+<!-- hier kan je meer links plaatsen========================================= -->
+		</ul>
+	</li>  
+	<li><a href="#">test</a></li>
+	<li><a href="#">test</a>
+		<ul class="sub1">
+			<li><a href="#">test</a></li>
+			<li><a href="#">test</a></li>
+			<li><a href="#">test</a>
+				<ul class="sub2">
+					<li><a href="#">t</a></li>
+					<li><a href="#">t</a></li>
+					<li><a href="#">test</a></li>
+<!-- en meer============================================== -->
+				</ul>
+			</li>
+           
+		</ul>
+	</li>
+	<li><a href="#">test</a></li>
+<!-- nieuwe knop evt ======================================-->
+</ul>
+</nav></div>
+<!-- top 10 div =============================================-->
+        <div class="top10">
+            <ul>
+                <h2>Top 10.</h2>
+                <li><a class="top10lijst" href="#">asd</a></li>
+                <li><a class="top10lijst" href="#">asdasd</a></li>
+                <li><a class="top10lijst" href="#">asdasd</a></li>
+                <li><a class="top10lijst" href="#">kurwa</a></li>
+                <li><a class="top10lijst" href="#">barry pooter</a></li>
+                <li><a class="top10lijst" href="#">asd</a></li>
+                <li><a class="top10lijst" href="#">asdasd</a></li>
+                <li><a class="top10lijst" href="#">asdasd</a></li>
+                <li><a class="top10lijst" href="#">kurwa</a></li>
+                <li><a class="top10lijst" id="barrypooter" href="#">barry pooter</a></li>
+                <li> </li>
+            </ul>
+        </div>
+<!-- releases div================================================= -->
+        <div class="releases">
+        	<a href="http://www.imdb.com" id="upcoming">
+            
+       		<img src="walt.jpg" id="upcoming2" align="middle"></a>
+        </div>
+<!-- midde================================================= -->
+
+    <!-- Plaatje en trailer -->
+    <div class="center">
+        <div class="filmplaatje">
+            <img src="Fury.jpg" />
+            <iframe src="http://www.imdb.com/video/imdb/vi4154436633/imdb/embed?autoplay=false&width=480" width="480" height="270" frameborder="no" scrolling="no"></iframe>
+        </div>
+    <!-- einde plaatje en trailer -->
+    <!-- naam van de film en een summary -->
+    <div class="filminformatie">    
+        <div class="filmnaam"> 
+            <h2> Fury
+                <span class="imdbRatingPlugin" data-user="ur55316599" data-title="tt2713180" data-style="p4"><a href="http://www.imdb.com/title/tt2713180/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_31x14.png" alt=" Fury
+                (2014) on IMDb" />
+                </a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
+                <img src="kijkwijzer-16.png" />
+                <img src="kijkwijzer-explicitlanguage.png" />
+                <img src="kijkwijzer-violence.png" /> 
+            </h2>
+            <hr class="rechtelijn">
+        </div>
+    <!-- hieronder komt een summary van de film en de filminformatie-->
+        <div class="filmsummary">
+            <p> 
+                'Fury' volgt de door de wol geverfde Wardaddy aan het einde van de Tweede Wereldoorlog. 
+                Hij heeft de leiding over een vijfkoppige tank-crew die een levensgevaarlijke missie in vijandelijk gebied dient uit te voeren. 
+                Ze zijn in elk opzicht in de minderheid, maar Wardaddy en zijn mannen doen er alles aan om de kern van nazi-Duitsland binnen te dringen. 
+            </P>
+            <br> <br>
+            <h2> Film informatie </h2>
+            <hr class="rechtelijn">
+    <!-- We hebben hier een extra div nodig, omdat de genre en regie enzo dan float left kunnen hebben 
+         en de specificaties ervan ook float left, maar die zitten dan wel op 1 lijn -->
+            <div class="informatie">
+                <p> Genre: <br> Speelduur <br> Regie: <br> Taalversie: <br> Te zien in: </p>
+            </div>
+    <!-- Deze div hebben we nodig, zodat alles wat hier komt te staan op dezelfde lijn begint -->
+            <div class="specificaties">  
+                <p> <a href="#">Actie</a>  |  <a href="#">Drama</a>  |  <a href="#">Oorlog</a> <br>
+                    ... minuten <br>
+                    David Ayer <br>
+                    Engels gesproken met nederlandse ondertiteling <br>
+                    2D
+                </p>
+            </div>
+            <br>
+    <!-- In deze div komt de regisseur en de cast -->
+            <br>
+            <div>
+                <h2> <span class='regie'>Regie</span> </h2>
+                <h2> <span class='cast'>Cast</span> </h2>
+            </div>
+            <hr id='regielijn'>
+    <!-- In deze div komen de foto's van de regisseur en de belangrijkste leden van de cast -->
+            <div class="castfotos">
+                <img id='regisseur' src='davidayer.jpg' />
+                <img class='ster' src="BradPit.jpg" />
+                <img class="ster" src="shia.jpg" />
+                <img class='ster' src="pena.jpg" />
+                <img class='ster' src="logan.jpg" />
+                <img class='ster' src="scott.jpg" />
+            </div>
+    <!-- In deze div komt de namen van de regisseur en de belangrijkste leden van de cast -->
+            <div class="castnamen">
+                <p> 
+                    <span id="regisseurnaam">David Ayer</span> 
+                    <span id="pitnaam"> Brad Pit </span>
+                    <span id="shianaam"> Shia LaBeouf</span>
+                    <span id="penanaam"> Michael Peña</span>
+                    <span id="logannaam"> Logan Lerman</span>
+                    <span id="scottnaam"> Scott Eastwood</span>
+                </p>
+            </div>
+        </div>
+    </div>
+                                                                            
+                                                                         
+        
+    </body>
+</html>

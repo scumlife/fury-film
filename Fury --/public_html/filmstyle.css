@@ -1,0 +1,117 @@
+.filmplaatje {
+    border: 1px solid gray;
+}
+
+.filmplaatje img {
+    position: relative;
+    border: 0px solid gray;
+    margin: 5px 0 0 12px;
+    height: 270px;
+    width: 165px;
+}
+
+.filmplaatje iframe {
+    position: relative;
+    border: 0px solid gray;
+    margin: 5px 0 0 25px;
+    background-color: black;
+}
+
+.filmnaam  h2{
+    position: relative;
+    margin: 20px 0 -9px 20px;
+    font-family: verdana;
+    font-size: 24px;
+}
+
+.filmnaam img{
+    margin: 20px 0 0 5px;
+}
+    
+.rechtelijn{
+    position: relative;
+    width: 650px;
+    margin-right: 37px;
+}
+
+.filmsummary{
+    font-family:  Verdana;
+    margin: 0 25px 0 10px;
+    color: gray;
+}
+
+.filmsummary h2{
+    color: black;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-bottom: -8px;
+}
+
+.informatie {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -8px;
+    float: left;
+}
+
+.specificaties p{
+    position: relative;
+    margin-left: 150px;
+}
+
+.specificaties p a{
+    color: gray;
+}
+
+.regie{
+    margin-left: 18px;
+    position: relative;
+    float: left;
+}
+
+#regielijn {
+    position: relative;
+    width: 650px;
+    margin-top: 10px;
+}
+
+.cast {
+    position: relative;
+    margin-left: 75px;
+}
+
+#regisseur {
+    margin: -3px 60px 0 22px;
+}
+
+.ster {
+    height: 100px;
+    width: 75px;
+    margin-right: 20px;
+}
+
+#regisseurnaam {
+    margin: 0 81px 0 25px;
+}
+
+.castnamen p{
+    font-family: Verdana;
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+#pitnaam {
+    margin: 0 34px 0 0;
+}
+
+#shianaam {
+    margin: 0 17px 0 0;
+}
+
+#penanaam {
+    margin: 0 15px 0 0;
+}
+
+#logannaam {
+    margin: 0 10px 0 0;
+}
